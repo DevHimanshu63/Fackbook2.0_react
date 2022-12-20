@@ -1,6 +1,6 @@
 import { Chat, RssFeed ,Event,PlayCircle,Group,Work, Bookmark,QuestionAnswer, School} from '@mui/icons-material'
+import { Button } from '@mui/material'
 import './sidebar.css'
-
 export default function Sidebar() {
   return (
     <div className='sidebar'>
@@ -44,6 +44,7 @@ export default function Sidebar() {
           </li>
         </ul>
         <button className="sidebarbutton">Show More</button>
+        {/* <Button variant="contained" className="sidebarbutton">Show More</Button> */}
         <hr className='sidebarHr' />
         <ul className="sidebarFriendList">
           <li className="sidebarFriend">
